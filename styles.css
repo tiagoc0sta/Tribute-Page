@@ -30,6 +30,12 @@ figure {
   text-align: center;
 }
 
+/*
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}*/
+
 .container {
   background-color: #eeeeee;
   border-radius: 4px;
