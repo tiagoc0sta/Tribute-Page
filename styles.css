@@ -13,29 +13,30 @@ header {
   text-align: center;
   h1: 24px;
   color: #30322f;
-  padding: 12px;
-  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 h1 {
   font-size: 40px;
 }
 
-img {
-  max-width: 97%;
-
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  padding: 50px 100px;
+figure {
+  margin: 0 20px;
+  padding: 30px 100px;
   background-color: white;
   text-align: center;
 }
 
-/*
 img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}*/
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-top: 20px;
+}
 
 .container {
   background-color: #eeeeee;
@@ -48,11 +49,15 @@ section {
   text-align: center;
   justify-content: center;
   width: 50%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 section p {
   font-style: italic;
+}
+
+ul p {
+  font-style: normal;
 }
 
 section h3 {
