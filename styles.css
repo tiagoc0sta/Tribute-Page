@@ -41,6 +41,7 @@ figcaption {
 .container {
   background-color: #eeeeee;
   border-radius: 4px;
+  margin-top: 30px;
 }
 
 section {
@@ -65,6 +66,13 @@ section h3 {
   font-size: 20px;
 }
 
+li {
+  margin-left: 30px;
+  display: list-item;
+  text-align: left;
+  list-style-position: inside;
+}
+
 footer {
   text-align: center;
   padding: 4px;
@@ -74,3 +82,5 @@ footer {
 footer a {
   color: #74638f;
 }
+
+/* https://tribute-page.freecodecamp.rocks/ */
